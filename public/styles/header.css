@@ -1,0 +1,31 @@
+.name{
+    margin-left: 25px;
+}
+
+li{
+    list-style: none;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu {
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.active{
+    text-decoration: underline;
+}
